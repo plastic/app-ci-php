@@ -11,5 +11,7 @@ class ValidatorTest extends PHPUnit_Framework_TestCase {
 		$this->assertFalse($this->Validator->validate('123abc') == 1);
 		$this->assertEquals($this->Validator->validate('1'), 1);
 		$this->assertEquals($this->Validator->validate(1), 1);
+		$this->assertEquals($this->Validator->validate('a'), 0);
+		
 	}
 }
