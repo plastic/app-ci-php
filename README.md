@@ -1,7 +1,7 @@
 app-ci-php
 ==========
 
-PHP Application Default With TDD
+PHP Application Default With PHPUnit + CI
 
 [![Build Status](https://travis-ci.org/plastic/app-ci-php.png?branch=master)](https://travis-ci.org/plastic/app-ci-php)
 [![Code Coverage](https://scrutinizer-ci.com/g/plastic/app-ci-php/badges/coverage.png?s=b63b400e6f3d1a9892a331ec53a02e7982828741)](https://scrutinizer-ci.com/g/plastic/app-ci-php/)
