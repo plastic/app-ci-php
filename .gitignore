@@ -1,0 +1,6 @@
+composer.phar
+composer.lock
+/build/*
+!/build/empty
+!/build/logs/empty
+/vendor/*

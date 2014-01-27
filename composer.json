@@ -10,12 +10,18 @@
 		}
 	],
 	"require": {
-		"facebook/php-sdk": "3.2.*",
-		"EHER/PHPUnit": ">=1.2"
+		"facebook/php-sdk": "3.2.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*",
+		"sebastian/phpcpd": "2.0.*@dev"
 	},
 	"autoload": {
 		"classmap": [
 			"app/classes"
 		]
+	},
+	"config": {
+		"bin-dir": "vendor/bin/"
 	}
 }
