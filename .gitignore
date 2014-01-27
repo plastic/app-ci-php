@@ -1,6 +1,6 @@
 composer.phar
 composer.lock
-/build/*
+/build/logs/*
 !/build/empty
 !/build/logs/empty
 /vendor/*
