@@ -4,3 +4,4 @@ composer.lock
 !/build/empty
 !/build/logs/empty
 /vendor/*
+/coverage/*
